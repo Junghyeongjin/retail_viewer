@@ -1,17 +1,5 @@
 import { useState } from "react";
 
-// ─────────────────────────────────────────────────────────────────────────────
-// ALL PRICES SOURCED DIRECTLY FROM RETAILER WEBSITES — REGULAR PRICE ONLY
-// No promotions, no rollbacks, no clearance, no promo codes applied
-//
-// TARGET  → target.com       | Brand: Cat & Jack    | Verified Mar 2026
-// WALMART → walmart.com      | Brand: Garanimals    | Verified Mar 2026
-// OLD NAVY→ oldnavy.gap.com  | Brand: Old Navy      | Verified Mar 2026
-//
-// ⚠ Items marked N/A = item not currently available as a standalone core basic
-//   at that retailer in the same construction/category
-// ─────────────────────────────────────────────────────────────────────────────
-
 const ITEMS = [
   {
     id: "leggings",

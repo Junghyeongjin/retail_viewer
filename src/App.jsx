@@ -1,7 +1,7 @@
-import RetailBenchmark from "./retail_price_benchmark_v3";
+import RetailPriceBenchmark from "./retail_price_benchmark_v3";
 
 function App() {
-  return <RetailBenchmark />;
+  return <RetailPriceBenchmark />;
 }
 
 export default App;
